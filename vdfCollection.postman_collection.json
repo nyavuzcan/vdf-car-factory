@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "6fab3dc3-38f3-46e1-b827-899eeb92fb0f",
+		"name": "vdfCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8090/car/produce",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"carType\": \"cabrio\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090/car/produce",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"car",
+						"produce"
+					]
+				},
+				"description": "For CABRIO car"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8090/car/produce",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"carType\": \"sedan\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090/car/produce",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"car",
+						"produce"
+					]
+				},
+				"description": "for Sedan Car"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8090/car/produce",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"carType\": \"hatchback\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090/car/produce",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"car",
+						"produce"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
