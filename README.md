@@ -1,4 +1,4 @@
-# Stock Control Application
+# VDF CAR FACTORY
 Adding and editing products with authentication
 - It has factory pattern.
 - It has produce car according to types.
@@ -27,7 +27,7 @@ Firstly, Postgresql database is used in the project. So a new database should be
  **SpringBoot Api:** http://localhost:8090
  
  **Example Request:**
-
+http://localhost:8090/car/produce
 ```json
 POST 
 Accept: application/json
